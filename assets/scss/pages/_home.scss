@@ -1,0 +1,138 @@
+.home {
+  @media (min-width: 1600px) {
+    .lead {
+      font-size: 1.5rem;
+    }
+  }
+
+  .banner {
+    background: url(../images/home/banner-bg.png) no-repeat center center/cover;
+    padding: 30px 0 50px 0;
+
+    .banner-title {
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      color: #fff;
+      // -webkit-text-stroke-width: 1px;
+      // -webkit-text-stroke-color: rgb(78, 78, 78);
+
+      @media (min-width: 1200px) {
+        font-size: 40px;
+        white-space: pre-line;
+      }
+      @media (min-width: 1600px) {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .learn-while-you-earn {
+    .title {
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      margin-bottom: 20px;
+
+      @media (min-width: 1200px) {
+        font-size: 60px;
+      }
+
+      @media (min-width: 1400px) {
+        font-size: 70px;
+      }
+    }
+
+    h2 {
+      font-family: 'Times New Roman', Times, serif;
+      white-space: pre-line;
+      text-align: center;
+      @media (min-width: 1200px) {
+        font-size: 40px;
+      }
+
+      @media (min-width: 1400px) {
+        font-size: 50px;
+      }
+    }
+
+    .lead {
+      font-family: Arial, Helvetica, sans-serif
+    }
+  }
+
+  .leverage-is-key {
+    .title {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: #6d1ed4;
+      margin-bottom: 20px;
+      text-align: center;
+      font-style: italic;
+      font-size: 50px;
+
+      @media (min-width: 768px) {
+        font-size: 80px;
+      }
+
+      @media (min-width: 1200px) {
+        font-size: 100px;
+      }
+
+      @media (min-width: 1400px) {
+        font-size: 150px;
+      }
+    }
+
+    .leverage-is-key-img {
+      text-align: center;
+      @media (min-width: 992px) {
+        float: left;
+      }
+    }
+
+    .lead {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      @media (min-width: 1400px) {
+        font-size: 23px;
+      }
+
+      @media (min-width: 1600px) {
+        font-size: 25px;
+      }
+    }
+ }
+
+  .steps {
+    .steps-item {
+      padding: 20px 0;
+      .title {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #fff;
+        font-style: italic;
+  
+        @media (min-width: 768px) {
+          font-size: 50px;
+        }
+  
+        @media (min-width: 1200px) {
+          font-size: 60px;
+        }
+  
+        @media (min-width: 1400px) {
+          font-size: 70px;
+        }
+      }
+       h3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        white-space: pre-line;
+        color: #fff;
+  
+        @media (min-width: 1200px) {
+          font-size: 30px;
+        }
+  
+        @media (min-width: 1400px) {
+          font-size: 40px;
+        }
+       }
+    }
+  }
+
+}
